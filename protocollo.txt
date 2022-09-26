@@ -1,0 +1,37 @@
+Comment[ArrayExpressAccession]	E-MTAB-10604
+MAGE-TAB Version	1.1
+Comment[Submitted Name]	A transcriptome analysis study with the focus on the role of long non-coding RNAs in Down syndrome subjects				
+Investigation Title	A transcriptome analysis study with the focus on the role of long non-coding RNAs in Down syndrome subjects
+Experiment Description	Down syndrome (DS) results from trisomy of chromosome 21 and is the most common genetic cause of intellectual disability (ID). A wide range of comorbidities have been described in DS, such as ID, muscle weakness, hypotonia, congenital heart disease and autoimmune diseases. The pathogenetic mechanisms that are responsible for developing these comorbidities are still far from being understood.  It was hypothesized that dosage imbalance on chromosome 21 as a whole disrupts diverse developmental pathways whereas another hypothesis suggests that dosage increase for specific genes on chromosome 21 contributes  directly to different aspects of the phenotype in DS. The present study explored mRNAs and lncRNAs expression by using the next generation sequencing analysis (NGS) and the quantitative real-time PCR (qRT-PCR) assay for the confirmation of the NGS results, followed by functional analysis of the results. The enrichment analysis of the results obtained revealed various pathways in which differentially expressed genes are involved. Developmental disorders play a crucial role in the phenotype of people with Down syndrome with particular attention to intellectual developmental disorders.
+Experimental Design	disease state design
+Experimental Design Term Source REF	EFO
+Experimental Design Term Accession Number	EFO:0001756
+Experimental Factor Name	disease
+Experimental Factor Type	disease
+Experimental Factor Term Source REF	EFO
+Experimental Factor Term Accession Number	EFO_0000408
+Person Last Name	Genomix4Life
+Person First Name	Genomix4Life
+Person Mid Initials
+Person Email	info@genomix4life.com
+Person Phone
+Person Fax
+Person Address	Via S. Allende 84081, Baronissi
+Person Affiliation	Genomix4Life SRL
+Person Roles	submitter
+Public Release Date	2021-06-28
+Protocol Name	P-MTAB-111011	P-MTAB-111012	P-MTAB-111013	P-MTAB-111014	P-MTAB-111015
+Protocol Type	sample collection protocol	nucleic acid extraction protocol	nucleic acid library construction protocol	nucleic acid sequencing protocol	normalization data transformation protocol
+Protocol Term Source REF	EFO	EFO	EFO	EFO	EFO
+Protocol Term Accession Number	EFO_0005518	EFO_0002944	EFO_0004184	EFO_0004170	EFO_0003816
+Protocol Description	PBMCs separation was performed by using the Ficoll-Paque (Ficoll Plaque PLUS â€“ GE Healthcare Life Sciences, Piscataway, USA) and the RNA was extracted using the TRIzol reagent (TRIzol Reagent, Invitrogen Life Tecnologies, Carlsband, CA, USA), according to the instructions provided by the manufacturer. 	For RNA extraction, each whole blood sample (approx. 10 ml) was processed within 2 hours of collection and the RNA was stored at -80 Â°C.	Indexed libraries were prepared from 1 Âµg/ea purified RNA with TruSeq Stranded mRNA (Illumina) Library Prep Kit, according to the manufacturerâ€™s instructions. 	Libraries were sequenced using an Illumina NextSeq 550 Dx System (Illumina) in a 2x75 paired-end format.	The read-count for the genes of interest was normalized, considering all genes expressed in the samples, using DESeq2, with standard parameter. using the median of ratio, to perform the differential expression analysis.  In particular the counts were divided by sample-specific size factors determined by median ratio of gene counts relative to geometric mean per gene.
+Protocol Hardware				NextSeq 550
+Protocol Software
+Term Source Name	EFO
+Term Source File	http://www.ebi.ac.uk/efo/
+Term Source Version
+Comment[AEExperimentType]	RNA-seq of coding RNA
+Comment[TemplateType]	Cell line - High-throughput sequencing
+Comment[SecondaryAccession]	ERP129951
+Comment[SequenceDataURI]	http://www.ebi.ac.uk/ena/data/view/ERR6089569-ERR6089608
+SDRF File	E-MTAB-10604.sdrf.txt
